@@ -2,7 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s;
 
+}
+.oklar:hover {
+    background-color:rgba(0,255,255,0.5);
+}
+.fa-solid {
+    cursor: pointer;
 }
 .fa-arrow-left-long{
     transition: all .5s;

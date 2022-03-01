@@ -8,15 +8,16 @@
 
 .container {
   width: 50vw;
-  height: 60vh;
-  min-height: 400px;
+  height: 40vh;
+  min-height: 500px;
   background-color: rgba(255, 226, 226, 0.8);
-  margin-top: 10%;
+  margin-top: 2rem;
   border-radius: 16px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .container-slider {
@@ -49,6 +50,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.oklar:hover {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+
+.fa-solid {
+  cursor: pointer;
 }
 
 .fa-arrow-left-long {
@@ -94,7 +105,8 @@
 }
 
 .içerik #içerik-resim img {
-  width: 45%;
+  width: 250px;
+  height: 300px;
 }
 
 .içerik #içerik-metin {
