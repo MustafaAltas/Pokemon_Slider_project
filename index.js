@@ -57,11 +57,14 @@ let isimİçerik = document.getElementById("içerik-metin");
 
 let index = 0;
 let pokemonSayısı = pokemon.length;
+
+
 //******************************************************************* */
 sağOk.addEventListener("click", (e) => {
     index++;
     eklemeİşlem.resimekleme(index);
     console.log(index);
+
     e.preventDefault();
 })
 
@@ -89,4 +92,9 @@ class eklemeİşlem {
 }
 
 
-
+setInterval(() => {
+    let randomIndex = Math.floor(Math.random() * pokemonSayısı);
+    resimİçerik.innerHTML = `
+    <img src="${pokemon[randomIndex].resim}" alt="" />`
+    isimİçerik.innerText = `${pokemon[randomIndex].isim}`
+},2000)
