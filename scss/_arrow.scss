@@ -1,0 +1,19 @@
+.oklar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-arrow-left-long{
+    transition: all .5s;
+}
+.fa-arrow-left-long:hover {
+    color: white;
+}
+
+.fa-arrow-right-long {
+    transition: all .5s;
+}
+.fa-arrow-right-long:hover {
+    color: white;
+}

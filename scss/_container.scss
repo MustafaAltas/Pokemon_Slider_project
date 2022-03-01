@@ -1,0 +1,21 @@
+.container {
+    width: 50vw;
+    height: 60vh;
+    min-height: 400px;
+    background-color: $containerColor;
+    margin-top: 10%;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    &-slider {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+}
+.container-başlık {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 200px;
+    }
+}

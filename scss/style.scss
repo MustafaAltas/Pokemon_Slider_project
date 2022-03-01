@@ -1,0 +1,16 @@
+@import "./reset";
+@import "./variables";
+@import "./container";
+@import "./arrow";
+@import "./içerik";
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/simple-pokeball-wallpaper-i-made.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+    background-attachment:fixed;
+    background-color: $bgColor;
+
+}

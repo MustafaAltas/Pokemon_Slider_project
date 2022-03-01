@@ -1,0 +1,19 @@
+.içerik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    #içerik-resim {
+        display: flex;
+        justify-content:center;
+        img {
+            width: 45%;
+        }
+    }
+    #içerik-metin {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    font-family: $fontFamily;
+    font-size: 2rem;
+}

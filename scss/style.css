@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 50vw;
+  height: 60vh;
+  min-height: 400px;
+  background-color: rgba(255, 226, 226, 0.8);
+  margin-top: 10%;
+  border-radius: 16px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.container-slider {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr 1fr;
+      grid-template-columns: 1fr 5fr 1fr;
+}
+
+.container-başlık {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-başlık img {
+  width: 200px;
+}
+
+.oklar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fa-arrow-left-long {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.fa-arrow-left-long:hover {
+  color: white;
+}
+
+.fa-arrow-right-long {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.fa-arrow-right-long:hover {
+  color: white;
+}
+
+.içerik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+}
+
+.içerik #içerik-resim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.içerik #içerik-resim img {
+  width: 45%;
+}
+
+.içerik #içerik-metin {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../img/simple-pokeball-wallpaper-i-made.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #393E46;
+}
+/*# sourceMappingURL=style.css.map */
